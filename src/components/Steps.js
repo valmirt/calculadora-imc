@@ -7,7 +7,7 @@ const Steps = ({response}) => {
   let over = ''
   let obesity = ''
 
-  // under = normal = over = obesity = 'disabled'
+  under = normal = over = obesity = 'disabled'
 
   if (response <= 18.5) {
     under = 'active'
@@ -20,7 +20,7 @@ const Steps = ({response}) => {
   }
 
   return (
-    <div className="theme ui vertical steps">
+    <div className="ui vertical steps">
       <div className={`${under} step`}>
         <div className="content">
           <div className="title">Abaixo do peso</div>

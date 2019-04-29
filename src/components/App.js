@@ -38,7 +38,7 @@ class App extends React.Component {
             />
           </div>
           <div className="ui vertical segment">
-            <Response response={this.state.imc} color={BASE_COLOR} />
+            <Response response={this.state.imc} />
           </div>
         </div>
       </div>

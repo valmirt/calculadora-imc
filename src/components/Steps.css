@@ -1,3 +1,20 @@
-.theme {
-  color:#20A93B;
+@media screen{
+
+  /** apart 1 code */
+
+   .ui.active.step, .ui.steps .step.active {
+       cursor: auto;
+       background-color: #29B847;
+       color: #FFFFFF;
+       font-weight: 700;
+       -webkit-text-fill-color: #FFFFFF;
+   }
+
+   /** apart 2 code */
+
+   .ui.active.steps:after, .ui.steps .step.active:after {
+       background-color: #29B847;
+       -webkit-box-shadow: none;
+       box-shadow: none;
+   }
 }
