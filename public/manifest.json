@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Calculadora IMC",
+  "name": "Calculadora de indice de massa corporal",
   "icons": [
     {
       "src": "favicon.ico",
