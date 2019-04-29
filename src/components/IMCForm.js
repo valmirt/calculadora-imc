@@ -28,7 +28,7 @@ class IMCForm extends React.Component {
   }
 
   onInputChange = (val, type) => {
-    if (!isNaN(val)) {
+    if (!isNaN(val) && val > 0) {
       if (type === 1) {
         this.setState({weight: {value: val, status: ''}})
       } else this.setState({height: {value: val, status: ''}})
@@ -40,7 +40,7 @@ class IMCForm extends React.Component {
   }
 
   checkupValues = (weight, height) => {
-    return ((!isNaN(weight) && weight !== 0) && (!isNaN(height) && height !== 0))
+    return ((!isNaN(weight) && weight > 0) && (!isNaN(height) && height > 0))
   }
 
   render() {

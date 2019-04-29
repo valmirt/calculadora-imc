@@ -15,7 +15,7 @@ const Steps = ({response}) => {
     normal = 'active'
   } else if (response <= 30) {
     over = 'active'
-  } else if (response <= 35) {
+  } else {
     obesity = 'active'
   }
 
