@@ -1,3 +1,11 @@
+# Calculadora de Índice de Massa Coporal (IMC)
+
+Este projeto é uma atividade para o Curso de Desenvolvimento Web da Universidade Federal de Goiás (UFG).
+
+This project is an activity for the Web Development Course at the Federal University of Goiás (UFG).
+
+#
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
